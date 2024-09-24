@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils/tests"
+	"github.com/coderyw/gorm/schema"
+	"github.com/coderyw/gorm/utils/tests"
 )
 
 type UserIndex struct {

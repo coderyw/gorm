@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"strings"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils"
+	"github.com/coderyw/gorm"
+	"github.com/coderyw/gorm/clause"
+	"github.com/coderyw/gorm/schema"
+	"github.com/coderyw/gorm/utils"
 )
 
 func Query(db *gorm.DB) {

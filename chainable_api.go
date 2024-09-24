@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/utils"
+	"github.com/coderyw/gorm/clause"
+	"github.com/coderyw/gorm/utils"
 )
 
 // Model specify the model you would like to run db operations
@@ -448,9 +448,10 @@ func (db *DB) Assign(attrs ...interface{}) (tx *DB) {
 // Unscoped allows queries to include records marked as deleted,
 // overriding the soft deletion behavior.
 // Example:
-//    var users []User
-//    db.Unscoped().Find(&users)
-//    // Retrieves all users, including deleted ones.
+//
+//	var users []User
+//	db.Unscoped().Find(&users)
+//	// Retrieves all users, including deleted ones.
 func (db *DB) Unscoped() (tx *DB) {
 	tx = db.getInstance()
 	tx.Statement.Unscoped = true

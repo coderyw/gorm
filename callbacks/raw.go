@@ -1,7 +1,7 @@
 package callbacks
 
 import (
-	"gorm.io/gorm"
+	"github.com/coderyw/gorm"
 )
 
 func RawExec(db *gorm.DB) {

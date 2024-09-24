@@ -1,4 +1,4 @@
-module gorm.io/gorm
+module github.com/coderyw/gorm
 
 go 1.18
 
