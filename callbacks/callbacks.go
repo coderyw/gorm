@@ -13,6 +13,7 @@ var (
 
 type Config struct {
 	LastInsertIDReversed bool
+	EnableLastInsertID   bool
 	CreateClauses        []string
 	QueryClauses         []string
 	UpdateClauses        []string

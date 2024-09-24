@@ -111,7 +111,9 @@ func Create(config *Config) func(db *gorm.DB) {
 			pkField     *schema.Field
 			pkFieldName = "@id"
 		)
-
+		if !config.EnableLastInsertID {
+			return
+		}
 		insertID, err := result.LastInsertId()
 		insertOk := err == nil && insertID > 0
 
