@@ -3,8 +3,8 @@ package tests_test
 import (
 	"testing"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/coderyw/gorm"
+	. "github.com/coderyw/gorm/utils/tests"
 )
 
 func TestUpdateBelongsTo(t *testing.T) {

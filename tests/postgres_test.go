@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/coderyw/gorm"
+	"github.com/coderyw/gorm/clause"
+	. "github.com/coderyw/gorm/utils/tests"
 	"github.com/google/uuid"
 	"github.com/lib/pq"
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	. "gorm.io/gorm/utils/tests"
 )
 
 func TestPostgresReturningIDWhichHasStringType(t *testing.T) {
