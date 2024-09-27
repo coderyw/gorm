@@ -5,8 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/coderyw/gorm"
-	. "github.com/coderyw/gorm/utils/tests"
+	"gorm.io/gorm"
 )
 
 func TestTransaction(t *testing.T) {

@@ -3,8 +3,7 @@ package tests_test
 import (
 	"testing"
 
-	"github.com/coderyw/gorm"
-	. "github.com/coderyw/gorm/utils/tests"
+	"gorm.io/gorm"
 )
 
 func TestHasManyAssociation(t *testing.T) {

@@ -8,8 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coderyw/gorm"
-	. "github.com/coderyw/gorm/utils/tests"
+	"gorm.io/gorm"
 )
 
 type Product struct {

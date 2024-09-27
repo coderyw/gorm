@@ -1,7 +1,7 @@
 package callbacks
 
 import (
-	"github.com/coderyw/gorm"
+	"gorm.io/gorm"
 )
 
 var (

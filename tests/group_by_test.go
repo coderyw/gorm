@@ -2,8 +2,6 @@ package tests_test
 
 import (
 	"testing"
-
-	. "github.com/coderyw/gorm/utils/tests"
 )
 
 func TestGroupBy(t *testing.T) {

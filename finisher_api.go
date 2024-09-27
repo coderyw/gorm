@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/coderyw/gorm/clause"
-	"github.com/coderyw/gorm/logger"
-	"github.com/coderyw/gorm/schema"
-	"github.com/coderyw/gorm/utils"
+	"gorm.io/gorm/clause"
+	"gorm.io/gorm/logger"
+	"gorm.io/gorm/schema"
+	"gorm.io/gorm/utils"
 )
 
 // Create inserts value, returning the inserted data's primary key in value's id

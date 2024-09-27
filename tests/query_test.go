@@ -12,9 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coderyw/gorm"
-	"github.com/coderyw/gorm/clause"
-	. "github.com/coderyw/gorm/utils/tests"
+	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 )
 
 func TestFind(t *testing.T) {

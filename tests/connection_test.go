@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"gorm.io/driver/mysql"
-	"github.com/coderyw/gorm"
+	"gorm.io/gorm"
 )
 
 func TestWithSingleConnection(t *testing.T) {

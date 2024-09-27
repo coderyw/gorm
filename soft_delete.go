@@ -7,8 +7,8 @@ import (
 	"reflect"
 
 	"github.com/jinzhu/now"
-	"github.com/coderyw/gorm/clause"
-	"github.com/coderyw/gorm/schema"
+	"gorm.io/gorm/clause"
+	"gorm.io/gorm/schema"
 )
 
 type DeletedAt sql.NullTime

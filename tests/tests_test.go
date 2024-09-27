@@ -7,13 +7,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/coderyw/gorm"
-	"github.com/coderyw/gorm/logger"
-	. "github.com/coderyw/gorm/utils/tests"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
 	"gorm.io/driver/sqlite"
 	"gorm.io/driver/sqlserver"
+	"gorm.io/gorm"
+	"gorm.io/gorm/logger"
 )
 
 var DB *gorm.DB

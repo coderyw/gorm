@@ -3,7 +3,7 @@ package gorm
 import (
 	"errors"
 
-	"github.com/coderyw/gorm/logger"
+	"gorm.io/gorm/logger"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/coderyw/gorm/clause"
-	"github.com/coderyw/gorm/logger"
+	"gorm.io/gorm/clause"
+	"gorm.io/gorm/logger"
 )
 
 type callbackType string

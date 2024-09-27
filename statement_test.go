@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coderyw/gorm/clause"
+	"gorm.io/gorm/clause"
 )
 
 func TestWhereCloneCorruption(t *testing.T) {

@@ -8,10 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coderyw/gorm"
-	"github.com/coderyw/gorm/clause"
-	"github.com/coderyw/gorm/utils"
-	. "github.com/coderyw/gorm/utils/tests"
+	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
+	"gorm.io/gorm/utils"
 )
 
 func TestUpdate(t *testing.T) {

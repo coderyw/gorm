@@ -3,7 +3,7 @@ package callbacks
 import (
 	"reflect"
 
-	"github.com/coderyw/gorm"
+	"gorm.io/gorm"
 )
 
 func callMethod(db *gorm.DB, fc func(value interface{}, tx *gorm.DB) bool) {
