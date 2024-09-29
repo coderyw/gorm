@@ -22,6 +22,7 @@ func (DummyDialector) Initialize(db *gorm.DB) error {
 		UpdateClauses:        []string{"UPDATE", "SET", "WHERE", "RETURNING"},
 		DeleteClauses:        []string{"DELETE", "FROM", "WHERE", "RETURNING"},
 		LastInsertIDReversed: true,
+		EnableLastInsertID:   true,
 	})
 
 	return nil

@@ -106,14 +106,14 @@ func Create(config *Config) func(db *gorm.DB) {
 		if db.RowsAffected == 0 {
 			return
 		}
-
+		if config.WithoutLastInsertId {
+			return
+		}
 		var (
 			pkField     *schema.Field
 			pkFieldName = "@id"
 		)
-		if !config.EnableLastInsertID {
-			return
-		}
+
 		insertID, err := result.LastInsertId()
 		insertOk := err == nil && insertID > 0
 
