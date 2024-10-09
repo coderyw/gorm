@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"gorm.io/gorm"
+	"github.com/coderyw/gorm"
 )
 
 func TestCountWithGroup(t *testing.T) {

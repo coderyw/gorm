@@ -6,8 +6,8 @@ import (
 	"sort"
 	"testing"
 
+	. "github.com/coderyw/gorm/utils/tests"
 	"github.com/stretchr/testify/assert"
-	. "gorm.io/gorm/utils/tests"
 )
 
 func TestJoins(t *testing.T) {

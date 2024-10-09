@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"gorm.io/gorm"
+	"github.com/coderyw/gorm"
 )
 
 func NameIn1And2(d *gorm.DB) *gorm.DB {

@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
+	"github.com/coderyw/gorm"
+	"github.com/coderyw/gorm/clause"
 )
 
 func TestScannerValuer(t *testing.T) {

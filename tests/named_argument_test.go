@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"gorm.io/gorm"
+	"github.com/coderyw/gorm"
 )
 
 func TestNamedArg(t *testing.T) {

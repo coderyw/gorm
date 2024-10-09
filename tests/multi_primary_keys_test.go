@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"gorm.io/gorm"
+	"github.com/coderyw/gorm"
 )
 
 type Blog struct {

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gorm"
+	"github.com/coderyw/gorm"
 )
 
 func TestUpdateHasOne(t *testing.T) {

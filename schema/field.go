@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/coderyw/gorm/clause"
+	"github.com/coderyw/gorm/utils"
 	"github.com/jinzhu/now"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/utils"
 )
 
 // special types' reflect type
